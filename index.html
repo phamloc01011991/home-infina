@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" >
+    <title>Trang chủ</title>
+    <script type="text/javascript">
+        function redirect() {
+            if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                var userAgent = navigator.userAgent || window.opera;
+                if (/Android/.test(userAgent)) {
+                    window.location.href = "./adroidldp";
+                }else {
+                    window.location.href = "./iosldp";
+                }
+            }
+        }
+        redirect();
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="stars">
+            
+        </div>
+        <header id="site-header">
+            <div class="container">
+                <div class="inner">
+                    <a href="./index.html" class="logo">
+                        <img src="./assets/images/tran.png" alt="photo">
+                    </a>
+                    <ul class="nav">
+                        <li>
+                            <a href="./privacyPolicy.html">PRIVACY POLICY</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main id="site-main">
+            <a href="#" class="logo">
+                <img src="./assets/images/tran.png" alt="photo">
+            </a>
+            <h2>Welcome to Infina</h2>
+            <div class="download">
+                <div class="apk">
+                    <h3>QR App Store</h3>
+                    <div class="scanning">
+                        <div id="ios-qrcode"></div>
+                    </div>
+                    <a href="itms-services://?action=download-manifest&amp;url=https://financeapp.biz/files/app44.plist" class="button">
+                        <i class="fas fa-download"></i>
+                        <span>Download for IOS</span>
+                    </a>
+                </div>
+                <div class="ios">
+                    <h3>QR Google Play</h3>
+                    <div class="scanning">
+                        <div id="apk-qrcode"></div>
+                    </div>
+                    <a href="https://infinasoftware.com/app.apk" class="button">
+                        <i class="fas fa-download"></i>
+                        <span>Download for APK</span>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./libs/qrcode/qrcode.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
