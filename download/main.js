@@ -10,8 +10,8 @@ const createQR = (id, text) => {
 
 }
 
-createQR("apk-qrcode", "https://fncapp.com/app4.apk");
-createQR("ios-qrcode", "itms-services://?action=download-manifest&amp;url=https://financeapp.biz/files/app44.plist");
+createQR("apk-qrcode", "https://infinasoftware.com/app.apk");
+createQR("ios-qrcode", "itms-services://?action=download-manifest&amp;url=https://infinasoftware.com/app.plist");
 
    const starsContainer = document.querySelector('.stars');
 
