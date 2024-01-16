@@ -5247,14 +5247,14 @@ html {
   }
   
   .mockup-2-phone {
-    height: 620px;
+    height: 400px;
     max-width: 100%;
     object-fit: fill;
     margin-top: 20px;
     margin-left: 40%;
     padding-left: 10px;
     position: absolute;
-    top: 10px;
+    top: 16%;
   }
   
 
@@ -18340,7 +18340,7 @@ html {
     }
   
     .mockup-2-phone {
-      height: 600px;
+      height: 400px;
       max-width: 80%;
       margin-top: 491px;
       margin-left: auto;
@@ -20703,10 +20703,10 @@ html {
     }
   
     .mockup-2-phone {
-      width: 90%;
+      width: 65%;
       height: auto;
       max-width: none;
-      margin-top: 479px;
+      margin-top: 364px;
       padding-top: 140px;
       padding-bottom: 0;
       display: block;
